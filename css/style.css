@@ -74,6 +74,13 @@ i{
 #projects{
   background-color: #fff;
 }
+.gridtry{
+  display: grid;
+  grid-template-columns:auto auto;
+  /* gap: 50px; */
+  margin: 0 auto;
+  gap: 50px;
+}
 
 /* code walid fager */
 
@@ -411,7 +418,7 @@ a:hover,a:focus,a.active{
 }
 .background2{
     background: url(../images/background/01.jpg) no-repeat center fixed;
-}=
+}
 .background3{
   background-image: url(../images/slider/04.jpg);
 }
@@ -870,6 +877,11 @@ ul#menu li a{
 .service_two p{
   padding: 30px 20px;
 }
+.srv_icon{
+display: flex;
+align-items: center;
+justify-content: center;
+}
 .srv_item_number{
     position: relative;
     overflow: hidden;
@@ -1165,22 +1177,15 @@ ul#menu li a{
 .blog_img{
     overflow: hidden;
 }
+.blog_content a{
+  display: flex;
+  justify-content: center;
+}
 .admin{
   border-radius: 30px;
-  padding: 5px;
+  padding: 1% 30%;
   display: inline-block;
-  float: left;
-}
-.admin img{
-  width: 40px !important;
-  height: 40px;
-  border-radius: 100%;
-  margin-right: 10px;
-  float: left;
-}
-.admin span{
-  padding-right: 15px;
-  line-height: 39px;
+  text-align: center;
 }
 .date{
   font-size: 16px;
@@ -1268,119 +1273,12 @@ ul#menu li a{
     left: 0;
     position: fixed;
     z-index: 9999;
+    background-image: url(../images/a7b015d343ad801ad6da8c242dc6ae06.gif);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: #000;
 }
-@keyframes lds-spinner {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-@-webkit-keyframes lds-spinner {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-.lds-spinner{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-}
-.lds-spinner div {
-  left: 94px;
-  top: 48px;
-  position: absolute;
-  -webkit-animation: lds-spinner linear 1s infinite;
-  animation: lds-spinner linear 1s infinite;
-  width: 12px;
-  height: 24px;
-  border-radius: 40%;
-  -webkit-transform-origin: 6px 52px;
-  transform-origin: 6px 52px;
-}
-.lds-spinner div:nth-child(1) {
-  -webkit-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-animation-delay: -0.916666666666667s;
-  animation-delay: -0.916666666666667s;
-}
-.lds-spinner div:nth-child(2) {
-  -webkit-transform: rotate(30deg);
-  transform: rotate(30deg);
-  -webkit-animation-delay: -0.833333333333333s;
-  animation-delay: -0.833333333333333s;
-}
-.lds-spinner div:nth-child(3) {
-  -webkit-transform: rotate(60deg);
-  transform: rotate(60deg);
-  -webkit-animation-delay: -0.75s;
-  animation-delay: -0.75s;
-}
-.lds-spinner div:nth-child(4) {
-  -webkit-transform: rotate(90deg);
-  transform: rotate(90deg);
-  -webkit-animation-delay: -0.666666666666667s;
-  animation-delay: -0.666666666666667s;
-}
-.lds-spinner div:nth-child(5) {
-  -webkit-transform: rotate(120deg);
-  transform: rotate(120deg);
-  -webkit-animation-delay: -0.583333333333333s;
-  animation-delay: -0.583333333333333s;
-}
-.lds-spinner div:nth-child(6) {
-  -webkit-transform: rotate(150deg);
-  transform: rotate(150deg);
-  -webkit-animation-delay: -0.5s;
-  animation-delay: -0.5s;
-}
-.lds-spinner div:nth-child(7) {
-  -webkit-transform: rotate(180deg);
-  transform: rotate(180deg);
-  -webkit-animation-delay: -0.416666666666667s;
-  animation-delay: -0.416666666666667s;
-}
-.lds-spinner div:nth-child(8) {
-  -webkit-transform: rotate(210deg);
-  transform: rotate(210deg);
-  -webkit-animation-delay: -0.333333333333333s;
-  animation-delay: -0.333333333333333s;
-}
-.lds-spinner div:nth-child(9) {
-  -webkit-transform: rotate(240deg);
-  transform: rotate(240deg);
-  -webkit-animation-delay: -0.25s;
-  animation-delay: -0.25s;
-}
-.lds-spinner div:nth-child(10) {
-  -webkit-transform: rotate(270deg);
-  transform: rotate(270deg);
-  -webkit-animation-delay: -0.166666666666667s;
-  animation-delay: -0.166666666666667s;
-}
-.lds-spinner div:nth-child(11) {
-  -webkit-transform: rotate(300deg);
-  transform: rotate(300deg);
-  -webkit-animation-delay: -0.083333333333333s;
-  animation-delay: -0.083333333333333s;
-}
-.lds-spinner div:nth-child(12) {
-  -webkit-transform: rotate(330deg);
-  transform: rotate(330deg);
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-}
-.lds-spinner {
-  width: 200px !important;
-  height: 200px !important;
-  -webkit-transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
-  transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
-}
-
 /*===============================================================================
 24.   Back to Top
 =================================================================================*/
@@ -2202,9 +2100,9 @@ label.radios {
   .admin span,.date{
     font-size: 14px;
   }
-  .admin{
+  /* .admin{
     padding: 0px;
-  }
+  } */
   .date{
     line-height: 38px;
   }
@@ -2705,9 +2603,9 @@ label.radios {
       margin: 0px 8px;
       font-size: 14px;
   }
-  .admin{
+  /* .admin{
     padding: 0px;
-  }
+  } */
   .date{
     font-size: 13px;
     line-height: 40px;

@@ -21,7 +21,7 @@
 /*	Background Color
 ===================================================================*/
 .bg_default{
-	background-color: #ffb32f;
+	background-color: #695d48;
 }
 .bg_primary{
 	background-color: #1e283c;
@@ -144,7 +144,7 @@ ul#menu li a:hover,.twite i,.twite a:hover,.category_sidebar ul li:hover,
 }
 /*	Background Color Primary Class & ID
 ===================================================================*/
-#scroll,.personal_video a,.ball-scale-multiple > div,.preloader,
+#scroll,.personal_video a,.ball-scale-multiple > div,
 .sidenav,.table:hover,.admin{
 	background-color: #1e283c;
 }
