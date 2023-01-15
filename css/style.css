@@ -76,7 +76,7 @@ i{
 }
 .gridtry{
   display: grid;
-  grid-template-columns:auto auto;
+  grid-template-columns:auto auto auto;
   /* gap: 50px; */
   margin: 0 auto;
   gap: 50px;
