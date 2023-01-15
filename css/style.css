@@ -565,7 +565,7 @@ ul#menu li a{
 .banner_image,.banner_water_effect{
     width: 100%;
     height: 100vh;
-    background-size: 100% auto;
+    background-size: cover;
     overflow: hidden;
     background-position: 50% 10%;
     background-repeat: no-repeat;
