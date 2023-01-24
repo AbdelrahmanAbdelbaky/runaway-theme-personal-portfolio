@@ -75,10 +75,10 @@ i{
   background-color: #fff;
 }
 .gridtry{
-  display: grid;
-  grid-template-columns:auto auto auto;
+  display: flex;
+  flex-wrap: wrap;
   /* gap: 50px; */
-  margin: 0 auto;
+justify-content: center;
   gap: 50px;
 }
 
