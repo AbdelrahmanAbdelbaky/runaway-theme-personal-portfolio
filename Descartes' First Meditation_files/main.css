@@ -2431,15 +2431,15 @@ p.excerpt {
 }
 
 
-.descartes-of-first-bg{
-  background:url("../images/3bdojpg.jpg");
+.back {
+  background:url("../images/fractaal.jpg");
   background-size:cover;
-  height:110vh;
+  height:100%;
   display: flex;
   justify-content: center;
 }
-.descartes-first-bg {
-  background:url("../images/3bdojpg.jpg");
+.body {
+  background:url("../images/Fractals.jpg");
   border-radius: 20px;
   background-size:cover;
   height:110vh;
