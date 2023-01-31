@@ -1250,6 +1250,7 @@ justify-content: center;
   padding: 1% 30%;
   display: inline-block;
   text-align: center;
+  justify-content: center;
 }
 .date{
   font-size: 16px;
